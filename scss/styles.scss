@@ -34,11 +34,11 @@
 */
 
 // Define base and accent colors
-$base-color: #FB3640;
+$base-color: #E8C46A;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
+$background: #fcfcfc;
 $background-alt: #f2f2f5;
 
 // Define border colors
@@ -85,7 +85,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 
     &.active {
@@ -105,6 +105,7 @@ body {
 
             h3 {
                 font-size: 1.5em;
+                font-family: 'Roboto', sans-serif;
                 font-weight: 300;
                 color: $heading;
                 display: inline-block;
@@ -366,10 +367,13 @@ footer {
 
     h1, h2 {
         margin: 0;
+        font-family: 'Noto Sans', sans-serif;
+
     }
 
     h1 {
         color: #fff;
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -379,6 +383,7 @@ footer {
 
     h2 {
         color: lighten($base-color, 25%);
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -451,6 +456,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-family: 'Roboto', sans-serif;
     }
 
     p {
@@ -472,6 +478,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -515,6 +522,7 @@ footer {
 
     h3 {
         font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: $heading;
         display: inline-block;
@@ -583,6 +591,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 50px;
     }
 }
@@ -595,7 +604,8 @@ footer {
     text-align: left;
 
     h3 {
-        font-weight: 500;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
         float: left;
         margin: 0;
         color: $heading;
@@ -609,8 +619,8 @@ footer {
     h4 {
         color: $text;
         clear: both;
-        font-weight: 500;
-        margin: 0 0 15px 0;
+        font-weight: 400;
+        margin: 0;
     }
 
     p, ul {
@@ -637,6 +647,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 50px;
     }
 }
@@ -658,11 +669,12 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 500px;
     padding: 15px;
 
     h3 {
         font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
@@ -700,6 +712,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-family: 'Roboto', sans-serif;
         margin-bottom: 50px;
     }
 
@@ -735,6 +748,7 @@ footer {
 
     h2 {
         margin: 0 0 15px 0;
+        font-family: 'Roboto', sans-serif;
         color: #fff;
         font-weight: 500;
     }
@@ -800,6 +814,7 @@ footer {
 
     h2 {
         color: $heading;
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -813,6 +828,7 @@ footer {
 
     h3 {
         font-weight: 500;
+        font-family: 'Roboto', sans-serif;
         margin: 0 0 15px 0;
         color: $heading;
     }
@@ -888,10 +904,12 @@ footer {
 
         h1 {
             font-size: 3em;
+            font-family: 'Noto Sans', sans-serif;
         }
 
         h2 {
             font-size: 1.75em;
+            font-family: 'Roboto', sans-serif;
         }
     }
 
@@ -937,10 +955,12 @@ footer {
     #lead-content {
         h1 {
             font-size: 2em;
+            font-family: 'Noto Sans', sans-serif;
         }
 
         h2 {
             font-size: 1.3em;
+            font-family: 'Roboto', sans-serif;
         }
 
         a {
@@ -955,6 +975,7 @@ footer {
     .education-block {
         h3, span {
             float: none;
+            font-family: 'Roboto', sans-serif;
         }
     }
 
@@ -986,10 +1007,12 @@ footer {
     #lead-content {
         h1 {
             font-size: 1.5em;
+            font-family: 'Noto Sans', sans-serif;
         }
 
         h2 {
             font-size: 1em;
+            font-family: 'Roboto', sans-serif;
         }
 
         a {
